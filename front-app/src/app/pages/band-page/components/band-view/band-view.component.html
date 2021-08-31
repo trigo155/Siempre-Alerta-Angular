@@ -1,0 +1,25 @@
+<div class="container">
+    <div>
+        <h1>{{bandaInfo?.name}}</h1>
+    </div>
+    <div>
+        <h5>{{bandaInfo?.description}}</h5>
+    </div>
+    <div>
+        <ul>
+            <h4>Integrantes</h4>
+
+            <li class="liv">{{bandaInfo?.integrantes?.voz}}</li>
+            <li class="lih">{{bandaInfo?.integrantes?.guitarra}}</li>
+            <li class="lie">{{bandaInfo?.integrantes?.bajo}}</li>
+            <li class="lit">{{bandaInfo?.integrantes?.bateria}}</li>
+        </ul>
+    </div>
+</div>
+
+<div class="imgcontainer">
+    
+    <img src="{{bandaInfo?.img?.src}}" alt="{{bandaInfo?.img?.alt}}">
+    <h3>{{bandaInfo?.sentence}}</h3>
+</div>
+

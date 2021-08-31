@@ -1,0 +1,51 @@
+<div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/ArteSkate2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/Patata2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/Venom2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/La_Mala2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/ArteSkate2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/Patata2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/Venom2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/La_Mala2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">La_Mala
+                <img src="../../../../../assets/images/slides/ArteSkate2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/Patata2.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/Venom.png" height="200" width="175" alt="" />
+            </div>
+            <div class="slide">
+                <img src="../../../../../assets/images/slides/La_Mala2.png" height="200" width="175" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="concerts">
+        <ul>
+            <h4>
+
+                <li *ngFor="let concierto of concertInfo">
+                    {{concierto.location}} Fecha: {{concierto.date}}
+                    <img class="" src="{{concierto.img.src}}" alt="{{concierto.img.alt}}">
+                </li>
+            </h4>
+        </ul>
+    </div>

@@ -1,0 +1,68 @@
+@import '../../../../styles/grid.scss';
+@import '../../../../styles/colors.scss';
+
+.container {
+    @include grid;
+    grid-auto-rows: 120px;
+
+    @media only screen and(min-width: 600px) {
+        @include gridLayout((12,1), (12,1), (12,2), (12,1))
+    }
+        
+        max-width: 100%;
+        margin: 0 auto;
+
+        > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+}
+
+h3, h5{
+    margin: 0 7px;
+}
+
+
+
+.imgcontainer{
+    width: 100%;
+    height:auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    }
+
+    
+.liv {
+    background: url('../../../../../assets/images/popeye.svg ') no-repeat left center ;
+    height: 30px;
+    padding-left: 35px;
+
+    
+    }
+.lih {
+    background: url('../../../../../assets/images/empire.svg ') no-repeat left center;
+    height: 30px;
+    padding-left: 35px;
+    }
+.lie {
+    background: url('../../../../../assets/images/bruto.svg ') no-repeat left center;
+    height: 30px;
+    padding-left: 35px;
+    }
+.lit {
+    background: url('../../../../../assets/images/punisher.svg ') no-repeat left center;
+    height: 30px;
+    padding-left: 35px;
+    }

@@ -1,0 +1,18 @@
+@import "../../../../app/styles/grid.scss";
+@import "../../../../app/styles/colors.scss";
+
+.statuscontainer{
+
+    @include grid;
+    grid-auto-rows: 80px;
+    
+    @media only screen and(min-width: 600px) {
+        @include gridLayout((12, 2),(12, 2) )
+    }
+    
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+  
+}

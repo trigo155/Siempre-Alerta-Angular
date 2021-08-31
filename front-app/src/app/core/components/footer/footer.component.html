@@ -1,0 +1,15 @@
+<footer>
+     <ul class="ulcontainer">
+        <li *ngFor="let item of footer?.rrss">
+            <a href="{{item.url}}">
+                <!-- <p>{{item.name}}</p> -->
+                <img class="b-icon" src="{{item.icon}}" alt="{{item.name}}">
+            </a>
+        </li>
+        <div class="copycontainer">
+            <p>{{footer?.copyright}}</p>
+        </div>
+    </ul>
+ 
+</footer>
+

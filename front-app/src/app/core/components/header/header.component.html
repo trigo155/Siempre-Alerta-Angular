@@ -1,0 +1,12 @@
+<header>
+    <nav>
+       
+                <ul class="container">
+                    <li *ngFor="let item of header">
+                         <a [routerLink]="[item.navigate]">{{item.name}}</a>
+                    </li>
+                </ul>
+    
+    </nav>
+</header>
+

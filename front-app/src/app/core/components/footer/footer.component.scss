@@ -1,0 +1,53 @@
+@import '../../../../app/styles/grid.scss';
+@import '../../../../app/styles/colors.scss';
+
+.ulcontainer{
+    @include grid;
+    grid-auto-rows: 90px;
+
+    @media only screen and(min-width: 600px) {
+        @include gridLayout((6,1), (6,1))
+    }
+        
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        background-color: $black;
+
+        > li{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+}
+
+
+
+
+.copycontainer{
+    @include grid;
+    grid-auto-rows: 15px;
+
+    @media only screen and(min-width: 600px) {
+        @include gridLayout((12, 1))
+    }
+        
+        max-width: 100%;
+        margin: 0 auto;
+        color: $gold;
+        text-align: center;
+
+        > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+}
+
+footer{
+    border-top: 4px solid $gold;
+}
+

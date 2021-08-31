@@ -1,0 +1,141 @@
+{
+    "header": [
+        {
+        "name": "La banda",
+        "navigate": "/banda"
+        },
+        {
+        "name": "Discografía",
+        "navigate": "/discografia"
+        },
+        {
+        "name": "Conciertos",
+        "navigate": "/conciertos"
+        }
+],
+    "footer":
+        {
+         "copyright": "all rights reserved @SiempreAlerta",
+         "rrss": [
+             {
+            "name": "",
+            "icon": "../assets/images/facebook.svg",
+            "url": "https://es-es.facebook.com/siemprealerta.oficial/"
+            },
+            {
+            "name": "",
+            "icon": "../assets/images/instagram.svg",
+            "url": "https://www.instagram.com/siemprealertaspeedpunk/"
+            }
+        ]  
+        },
+        
+    "banda": {
+        "name": "Siempre Alerta",
+        "description": "Nacemos en el año 2016, en algún lugar de las afueras de Alcalá de Henares (Madrid), desde ese día hemos ido forjando un acero indestructible.",
+        "integrantes": {
+            "voz": "Venzejo: Voz y letras",
+            "guitarra": "Haselhof: Guitarra y coros",
+            "bajo": "Enyine: Bajo y coros",
+            "bateria": "Trigo: Batería"
+        },
+        "img": {
+            "src": "../assets/images/fist.png",
+            "alt": "Foto de portada"
+        },
+        "sentence": "\"La lucha sigue, Siempre Alerta te persigue...\""
+    },
+
+
+    "discografia": {
+        "lp": "Siempre Alerta",
+        "songs": [
+            { "song": "Muerte en vida" },
+            { "song": "Sangre" },
+            { "song": "El gran poder" },
+            { "song": "Heroína" },
+            { "song": "Ardió en gasolina" },
+            { "song": "Mala hostia" },
+            { "song": "Todo da igual" },
+            { "song": "Era solo un niño" },
+            { "song": "Te vas a acordar" },
+            { "song": "Humanicidio" },
+            { "song": "Odio" },
+            { "song": "Vecinos salvajes" },
+            { "song": "Puta locura" },
+            { "song": "Siempre alerta" },
+            { "song": "Artimaña" },
+            { "song": "Fuego" },
+            { "song": "Guerrera" },
+            { "song": "El Varilla" }
+
+        ],
+        "sentence": "Todas las canciones han sido compuestas por Siempre Alerta"
+    },
+
+
+    "conciertos": [{
+            "id": "1",
+            "location": "Torrelavega (Cantabria).",
+            "date": "2018",
+            "img": {
+                "src": "../../../assets/images/concerts/ArteSkate3.png",
+                "alt": "Concierto en Torrelavega."
+            }
+        },
+        {
+            "id": "2",
+            "location": "Chiringo Punk. Getafe (Madrid).",
+            "date": "2018",
+            "img": {
+                "src": "../../../assets/images/concerts/Chiringo3.png",
+                "alt": "Concierto Chiringo Punk."
+            }
+        },
+        {
+            "id": "3",
+            "location": "Alcalá Suena. Alcalá de Henares (Madrid).",
+            "date": "2018",
+            "img": {
+                "src": "../../../assets/images/concerts/AlcalaM3.png",
+                "alt": "Concierto Alcalá Suena."
+            }
+        },
+        {
+            "id": "4",
+            "location": "Sala Eve, Vallekas (Madrid)",
+            "date": "2018",
+            "img": {
+                "src": "../../../assets/images/concerts/Cabanillas3.png",
+                "alt": "Concierto Sala Eve"
+            }
+        },
+        {
+            "id": "5",
+            "location": "Fiestas de Corpa. Corpa (Madrid).",
+            "date": "2018",
+            "img": {
+                "src": "../../../assets/images/concerts/CabanillasFront.png",
+                "alt": "Fiestas de Corpa"
+            }
+        },
+        {
+            "id": "6",
+            "location": "Bloque 5. Azuqueca de Henares (Guadalajara).",
+            "date": "2018",
+            "img": {
+                "src": "../../../assets/images/concerts/Bloque53.png",
+                "alt": "Bloque 5."
+            }
+        },
+        {
+            "id": "7",
+            "location": "Fragüas Revive. Brihuega (Guadalajara).",
+            "date": "2017",
+            "img": {
+                "src": "../../../assets/images/concerts/Mudues3.png",
+                "alt": "Fragüas Revive"
+            }
+        }
+    ]
+}        

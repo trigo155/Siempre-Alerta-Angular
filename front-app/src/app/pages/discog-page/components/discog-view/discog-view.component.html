@@ -1,0 +1,15 @@
+
+    <h2>Primer LP: {{discogInfo?.lp}}</h2>
+    <div>
+        <ul>
+            <li *ngFor="let element of discogInfo?.songs">
+                {{element.song}}
+            </li>
+        </ul>
+    </div>
+    <h3>{{discogInfo?.sentence}}</h3>
+    
+    
+    <siempreAlerta-info-status [infostatus]="infoStatusConf"></siempreAlerta-info-status>
+
+    
