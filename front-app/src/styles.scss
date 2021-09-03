@@ -6,6 +6,16 @@ body{
     margin: 0 auto;
     font-family: "Eagle";
     background-color: $white;
-   
-    
+    position:relative;
 }
+
+
+.goup{
+	bottom:0px;
+	display: block;
+	position: fixed;
+	right:0px;
+	width:40px;
+}
+
+

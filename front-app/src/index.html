@@ -5,9 +5,35 @@
   <title>Siempre Alerta</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="icon" type="image/" href="thiller.png" />
 </head>
 <body>
   <app-root></app-root>
+  <div class="goup">
+    <span class="fa-stack">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+    </span>
+  </div>
 </body>
+<script>
+  $(document).ready(function(){
+	$('.goup').hide();
+	$('.goup').click(function(){
+		$('body,html').animate({
+			scrollTop:0
+		},1000)
+	});
+	$(window).scroll(function () {
+		if ($(this).scrollTop()) {
+			$('.goup').fadeIn();
+		}
+		else {
+			$('.goup').fadeOut();
+		}
+	});
+});
+</script>
 </html>
